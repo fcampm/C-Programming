@@ -3,4 +3,5 @@ project(C_course C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(C_course main.c)
+
+add_executable(C_course directivasProcesadorVariables.c)

@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-main.obj: main.c.obj
+directivasProcesadorVariables.obj: directivasProcesadorVariables.c.obj
 
-.PHONY : main.obj
+.PHONY : directivasProcesadorVariables.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/main.c.obj
-.PHONY : main.c.obj
+directivasProcesadorVariables.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/directivasProcesadorVariables.c.obj
+.PHONY : directivasProcesadorVariables.c.obj
 
-main.i: main.c.i
+directivasProcesadorVariables.i: directivasProcesadorVariables.c.i
 
-.PHONY : main.i
+.PHONY : directivasProcesadorVariables.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/main.c.i
-.PHONY : main.c.i
+directivasProcesadorVariables.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/directivasProcesadorVariables.c.i
+.PHONY : directivasProcesadorVariables.c.i
 
-main.s: main.c.s
+directivasProcesadorVariables.s: directivasProcesadorVariables.c.s
 
-.PHONY : main.s
+.PHONY : directivasProcesadorVariables.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/main.c.s
-.PHONY : main.c.s
+directivasProcesadorVariables.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/directivasProcesadorVariables.c.s
+.PHONY : directivasProcesadorVariables.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... directivasProcesadorVariables.obj
+	@echo ... directivasProcesadorVariables.i
+	@echo ... directivasProcesadorVariables.s
 .PHONY : help
 
 
