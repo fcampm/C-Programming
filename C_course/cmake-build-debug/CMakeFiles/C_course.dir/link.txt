@@ -1,0 +1,3 @@
+"D:\CLion - JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\C_course.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\ar.exe cr CMakeFiles\C_course.dir/objects.a @CMakeFiles\C_course.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\C_course.dir/objects.a -Wl,--no-whole-archive  -o C_course.exe -Wl,--out-implib,libC_course.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C_course.dir\linklibs.rsp
