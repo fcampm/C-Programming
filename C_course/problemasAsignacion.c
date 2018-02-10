@@ -42,6 +42,7 @@ int main(void){
     return 0;
 }
 
+// Método para realizar la conversión de Celcius a Fahrenheit.
 void celciusFahrenheit(float celsius) {
 
     float gradosFahrenheit = 0;
