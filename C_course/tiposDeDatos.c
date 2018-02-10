@@ -17,7 +17,7 @@ int main(){
     long e = 123456; // Usa %li para ser impreso en la pantalla; li = long int.
     float f = 15.678; // Usa %f para ser impreso en la pantalla.
     double g = 123123.123123; // Usa %f o %lf para ser impreso en la pantalla; lf = long float.
-    
+
     printf("El elemento es: %c\n", a);
     printf("El elemento es: %i\n", d);
     printf("El elemento es: %li\n", e);
