@@ -15,12 +15,13 @@ int y = 5; // Variable global.
 int main(){
 
     // Variables locales.
-    double suma = 0;
+    float suma = 0;
     int x = 10; // Variable local, porque está adentro de esta función.
 
     suma = PI + x;
 
-    printf("La suma es: %f\n", suma); // Se pone el %i porque se le está indicando que el tipo de dato es entero.
+    printf("La suma es: %0.3f\n", suma); // Se pone el %f porque se le está indicando es que el tipo de dato es real.
+    // Al tener %0.3f estamos especificando que queremos que imprima con 3 decimales a la hora de compilar éste redondea.
 
     return 0; // Le indica a la función que terminó bien el proceso.
 }
