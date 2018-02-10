@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-tiposDeDatos.obj: tiposDeDatos.c.obj
+entradasSalidas.obj: entradasSalidas.c.obj
 
-.PHONY : tiposDeDatos.obj
+.PHONY : entradasSalidas.obj
 
 # target to build an object file
-tiposDeDatos.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/tiposDeDatos.c.obj
-.PHONY : tiposDeDatos.c.obj
+entradasSalidas.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/entradasSalidas.c.obj
+.PHONY : entradasSalidas.c.obj
 
-tiposDeDatos.i: tiposDeDatos.c.i
+entradasSalidas.i: entradasSalidas.c.i
 
-.PHONY : tiposDeDatos.i
+.PHONY : entradasSalidas.i
 
 # target to preprocess a source file
-tiposDeDatos.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/tiposDeDatos.c.i
-.PHONY : tiposDeDatos.c.i
+entradasSalidas.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/entradasSalidas.c.i
+.PHONY : entradasSalidas.c.i
 
-tiposDeDatos.s: tiposDeDatos.c.s
+entradasSalidas.s: entradasSalidas.c.s
 
-.PHONY : tiposDeDatos.s
+.PHONY : entradasSalidas.s
 
 # target to generate assembly for a file
-tiposDeDatos.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/tiposDeDatos.c.s
-.PHONY : tiposDeDatos.c.s
+entradasSalidas.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/entradasSalidas.c.s
+.PHONY : entradasSalidas.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... tiposDeDatos.obj
-	@echo ... tiposDeDatos.i
-	@echo ... tiposDeDatos.s
+	@echo ... entradasSalidas.obj
+	@echo ... entradasSalidas.i
+	@echo ... entradasSalidas.s
 .PHONY : help
 
 
