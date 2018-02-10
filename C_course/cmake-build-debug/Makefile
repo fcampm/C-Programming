@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-directivasProcesadorVariables.obj: directivasProcesadorVariables.c.obj
+tiposDeDatos.obj: tiposDeDatos.c.obj
 
-.PHONY : directivasProcesadorVariables.obj
+.PHONY : tiposDeDatos.obj
 
 # target to build an object file
-directivasProcesadorVariables.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/directivasProcesadorVariables.c.obj
-.PHONY : directivasProcesadorVariables.c.obj
+tiposDeDatos.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/tiposDeDatos.c.obj
+.PHONY : tiposDeDatos.c.obj
 
-directivasProcesadorVariables.i: directivasProcesadorVariables.c.i
+tiposDeDatos.i: tiposDeDatos.c.i
 
-.PHONY : directivasProcesadorVariables.i
+.PHONY : tiposDeDatos.i
 
 # target to preprocess a source file
-directivasProcesadorVariables.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/directivasProcesadorVariables.c.i
-.PHONY : directivasProcesadorVariables.c.i
+tiposDeDatos.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/tiposDeDatos.c.i
+.PHONY : tiposDeDatos.c.i
 
-directivasProcesadorVariables.s: directivasProcesadorVariables.c.s
+tiposDeDatos.s: tiposDeDatos.c.s
 
-.PHONY : directivasProcesadorVariables.s
+.PHONY : tiposDeDatos.s
 
 # target to generate assembly for a file
-directivasProcesadorVariables.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/directivasProcesadorVariables.c.s
-.PHONY : directivasProcesadorVariables.c.s
+tiposDeDatos.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/tiposDeDatos.c.s
+.PHONY : tiposDeDatos.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... directivasProcesadorVariables.obj
-	@echo ... directivasProcesadorVariables.i
-	@echo ... directivasProcesadorVariables.s
+	@echo ... tiposDeDatos.obj
+	@echo ... tiposDeDatos.i
+	@echo ... tiposDeDatos.s
 .PHONY : help
 
 
