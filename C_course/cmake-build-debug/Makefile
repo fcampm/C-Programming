@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-entradasSalidas.obj: entradasSalidas.c.obj
+problemasAsignacion.obj: problemasAsignacion.c.obj
 
-.PHONY : entradasSalidas.obj
+.PHONY : problemasAsignacion.obj
 
 # target to build an object file
-entradasSalidas.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/entradasSalidas.c.obj
-.PHONY : entradasSalidas.c.obj
+problemasAsignacion.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasAsignacion.c.obj
+.PHONY : problemasAsignacion.c.obj
 
-entradasSalidas.i: entradasSalidas.c.i
+problemasAsignacion.i: problemasAsignacion.c.i
 
-.PHONY : entradasSalidas.i
+.PHONY : problemasAsignacion.i
 
 # target to preprocess a source file
-entradasSalidas.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/entradasSalidas.c.i
-.PHONY : entradasSalidas.c.i
+problemasAsignacion.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasAsignacion.c.i
+.PHONY : problemasAsignacion.c.i
 
-entradasSalidas.s: entradasSalidas.c.s
+problemasAsignacion.s: problemasAsignacion.c.s
 
-.PHONY : entradasSalidas.s
+.PHONY : problemasAsignacion.s
 
 # target to generate assembly for a file
-entradasSalidas.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/entradasSalidas.c.s
-.PHONY : entradasSalidas.c.s
+problemasAsignacion.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasAsignacion.c.s
+.PHONY : problemasAsignacion.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... entradasSalidas.obj
-	@echo ... entradasSalidas.i
-	@echo ... entradasSalidas.s
+	@echo ... problemasAsignacion.obj
+	@echo ... problemasAsignacion.i
+	@echo ... problemasAsignacion.s
 .PHONY : help
 
 
