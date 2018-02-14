@@ -1,7 +1,7 @@
 /*
  * Author: Fabián Camp Mussa.
  * Github: https://github.com/fcampm
- * Created on February 10, 2018.
+ * Created on February 14, 2018.
  * */
 
 // Problemas asignación.
@@ -11,6 +11,7 @@
  * 2. Convertir grados celsius a grados fahrenheit.
  * 3. Sacar la hipotenusa de un triángulo rectángulo, pidiendo al usuario el valor de los dos catetos.
  * 4. Hacer un programa que calcule longitudes de la circunferencia.
+ * 5. Hacer un programa que calcule áreas de trapecios.
  * */
 
 #include <stdio.h>
@@ -21,6 +22,7 @@
 int main(void){
     // Declaración de variables.
     int n1, n2;
+    int baseMayor, baseMenor, altura;
     float gradosCelsius;
     double cateto1, cateto2;
     double radio;
@@ -47,6 +49,11 @@ int main(void){
     printf("Digite el radio del circulo: ");
     scanf("%lf", &radio);
     perimetroCirculo(radio);
+
+    // Print área de trapecio.
+    printf("Digite base mayor, base menor y altura: ");
+    scanf("%i %i %i", &baseMayor, &baseMenor, &altura);
+    areaTrapecio(baseMayor, baseMenor, altura);
 
     return 0;
 }
@@ -107,4 +114,13 @@ void perimetroCirculo(double radio){
     double perimetro;
     perimetro = M_PI * radio * 2;
     printf("El perimetro del circulo con radio %lf es: %lf\n", radio, perimetro);
+}
+
+// Método para calcular el área de un trapecio
+void areaTrapecio(int baseMayor, int baseMenor, int altura){
+
+    double resultado;
+
+    resultado = (altura * (baseMayor + baseMenor) )/ 2;
+    printf("El resultado del área del trapecio es: %0.2lf", resultado);
 }
