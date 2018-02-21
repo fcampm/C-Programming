@@ -19,7 +19,7 @@
 
 
 
-int main(void){
+int main(){
     // Declaración de variables.
     int n1, n2;
     int baseMayor, baseMenor, altura;
