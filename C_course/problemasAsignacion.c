@@ -26,6 +26,7 @@ int main(void){
     float gradosCelsius;
     double cateto1, cateto2;
     double radio;
+    double subtotal, descuento;
 
     // Operaciones de suma, resta, multiplicación y división de dos números enteros.
     printf("Digite el valor de n1 y n2: ");
@@ -54,6 +55,11 @@ int main(void){
     printf("Digite base mayor, base menor y altura: ");
     scanf("%i %i %i", &baseMayor, &baseMenor, &altura);
     areaTrapecio(baseMayor, baseMenor, altura);
+
+    // Print problema descuentos.
+    printf("Digite el subtotal de la compra y el descuento a realizar: ");
+    scanf("%lf %lf", &subtotal, &descuento);
+    descuentosCompra(subtotal, descuento);
 
     return 0;
 }
@@ -123,4 +129,13 @@ void areaTrapecio(int baseMayor, int baseMenor, int altura){
 
     resultado = (altura * (baseMayor + baseMenor) )/ 2;
     printf("El resultado del área del trapecio es: %0.2lf", resultado);
+}
+
+// Método descuentos sobre la compra.
+void descuentosCompra (double subtotalPagar, double descuento){
+
+    double totalPagar;
+
+    totalPagar += subtotalPagar - (subtotalPagar * (descuento/100));
+    printf("El total a pagar despues de aplicar el %.lf porciento es: $%0.2lf", descuento, totalPagar);
 }
