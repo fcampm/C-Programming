@@ -23,10 +23,12 @@ int main(){
     // Declaración de variables.
     int n1, n2;
     int baseMayor, baseMenor, altura;
+    int horas;
     float gradosCelsius;
     double cateto1, cateto2;
     double radio;
     double subtotal, descuento;
+    double dineroPorHora;
 
     // Operaciones de suma, resta, multiplicación y división de dos números enteros.
     printf("Digite el valor de n1 y n2: ");
@@ -60,6 +62,11 @@ int main(){
     printf("Digite el subtotal de la compra y el descuento a realizar: ");
     scanf("%lf %lf", &subtotal, &descuento);
     descuentosCompra(subtotal, descuento);
+
+    // Print peoblema salarios trabajadores.
+    printf("Digite el costo por hora y las horas laboradas: ");
+    scanf("%lf %i", &dineroPorHora, &horas);
+    calcularSueldosPorHora(dineroPorHora, horas);
 
     return 0;
 }
@@ -138,4 +145,12 @@ void descuentosCompra (double subtotalPagar, double descuento){
 
     totalPagar += subtotalPagar - (subtotalPagar * (descuento/100));
     printf("El total a pagar despues de aplicar el %.lf porciento es: $%0.2lf", descuento, totalPagar);
+}
+
+// Método que calcula sueldos de los trabajadores
+void calcularSueldosPorHora (double dineroPorHora, int horasTrabajadas){
+
+    double salario;
+    salario = horasTrabajadas * dineroPorHora;
+    printf("El sueldo total es: $%0.2lf", salario);
 }
