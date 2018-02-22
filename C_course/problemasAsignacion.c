@@ -29,6 +29,7 @@ int main(){
     double radio;
     double subtotal, descuento;
     double dineroPorHora;
+    double salarioTrabajador, porcentajeSalarioExtra;
 
     // Operaciones de suma, resta, multiplicación y división de dos números enteros.
     printf("Digite el valor de n1 y n2: ");
@@ -67,6 +68,11 @@ int main(){
     printf("Digite el costo por hora y las horas laboradas: ");
     scanf("%lf %i", &dineroPorHora, &horas);
     calcularSueldosPorHora(dineroPorHora, horas);
+
+    // Print problema nuevo salario con un porcentaje extra.
+    printf("Digite el salario y el porcentaje a sumar: ");
+    scanf("%lf %lf", &salarioTrabajador, &porcentajeSalarioExtra);
+    nuevoSalarioExtra(salarioTrabajador, porcentajeSalarioExtra);
 
     return 0;
 }
@@ -153,4 +159,12 @@ void calcularSueldosPorHora (double dineroPorHora, int horasTrabajadas){
     double salario;
     salario = horasTrabajadas * dineroPorHora;
     printf("El sueldo total es: $%0.2lf", salario);
+}
+
+// Método que calcula sueldo con el 25% extra.
+void nuevoSalarioExtra (double salarioTrabajador, double porcentajeSalarioExtra){
+
+    double salarioTotal;
+    salarioTotal = salarioTrabajador + (salarioTrabajador * (porcentajeSalarioExtra/100));
+    printf("El nuevo salario es: $%0.2lf", salarioTotal);
 }
