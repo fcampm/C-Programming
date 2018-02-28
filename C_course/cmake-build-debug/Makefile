@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-problemasAsignacion.obj: problemasAsignacion.c.obj
+sentenciaIf.obj: sentenciaIf.c.obj
 
-.PHONY : problemasAsignacion.obj
+.PHONY : sentenciaIf.obj
 
 # target to build an object file
-problemasAsignacion.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasAsignacion.c.obj
-.PHONY : problemasAsignacion.c.obj
+sentenciaIf.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/sentenciaIf.c.obj
+.PHONY : sentenciaIf.c.obj
 
-problemasAsignacion.i: problemasAsignacion.c.i
+sentenciaIf.i: sentenciaIf.c.i
 
-.PHONY : problemasAsignacion.i
+.PHONY : sentenciaIf.i
 
 # target to preprocess a source file
-problemasAsignacion.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasAsignacion.c.i
-.PHONY : problemasAsignacion.c.i
+sentenciaIf.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/sentenciaIf.c.i
+.PHONY : sentenciaIf.c.i
 
-problemasAsignacion.s: problemasAsignacion.c.s
+sentenciaIf.s: sentenciaIf.c.s
 
-.PHONY : problemasAsignacion.s
+.PHONY : sentenciaIf.s
 
 # target to generate assembly for a file
-problemasAsignacion.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasAsignacion.c.s
-.PHONY : problemasAsignacion.c.s
+sentenciaIf.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/sentenciaIf.c.s
+.PHONY : sentenciaIf.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... problemasAsignacion.obj
-	@echo ... problemasAsignacion.i
-	@echo ... problemasAsignacion.s
+	@echo ... sentenciaIf.obj
+	@echo ... sentenciaIf.i
+	@echo ... sentenciaIf.s
 .PHONY : help
 
 
