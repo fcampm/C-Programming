@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Documentos/_otros/Cursos/C-Programming/C_course/sentenciaIf.c
+D:/Documentos/_otros/Cursos/C-Programming/C_course/problemasSentenciaIf.c
 stdio.h
+-
+string.h
+-
+math.h
 -
 

@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-sentenciaIf.obj: sentenciaIf.c.obj
+problemasSentenciaIf.obj: problemasSentenciaIf.c.obj
 
-.PHONY : sentenciaIf.obj
+.PHONY : problemasSentenciaIf.obj
 
 # target to build an object file
-sentenciaIf.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/sentenciaIf.c.obj
-.PHONY : sentenciaIf.c.obj
+problemasSentenciaIf.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasSentenciaIf.c.obj
+.PHONY : problemasSentenciaIf.c.obj
 
-sentenciaIf.i: sentenciaIf.c.i
+problemasSentenciaIf.i: problemasSentenciaIf.c.i
 
-.PHONY : sentenciaIf.i
+.PHONY : problemasSentenciaIf.i
 
 # target to preprocess a source file
-sentenciaIf.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/sentenciaIf.c.i
-.PHONY : sentenciaIf.c.i
+problemasSentenciaIf.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasSentenciaIf.c.i
+.PHONY : problemasSentenciaIf.c.i
 
-sentenciaIf.s: sentenciaIf.c.s
+problemasSentenciaIf.s: problemasSentenciaIf.c.s
 
-.PHONY : sentenciaIf.s
+.PHONY : problemasSentenciaIf.s
 
 # target to generate assembly for a file
-sentenciaIf.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/sentenciaIf.c.s
-.PHONY : sentenciaIf.c.s
+problemasSentenciaIf.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasSentenciaIf.c.s
+.PHONY : problemasSentenciaIf.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sentenciaIf.obj
-	@echo ... sentenciaIf.i
-	@echo ... sentenciaIf.s
+	@echo ... problemasSentenciaIf.obj
+	@echo ... problemasSentenciaIf.i
+	@echo ... problemasSentenciaIf.s
 .PHONY : help
 
 
