@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-problemasSentenciaIf.obj: problemasSentenciaIf.c.obj
+ejerciciosSwitch.obj: ejerciciosSwitch.c.obj
 
-.PHONY : problemasSentenciaIf.obj
+.PHONY : ejerciciosSwitch.obj
 
 # target to build an object file
-problemasSentenciaIf.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasSentenciaIf.c.obj
-.PHONY : problemasSentenciaIf.c.obj
+ejerciciosSwitch.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/ejerciciosSwitch.c.obj
+.PHONY : ejerciciosSwitch.c.obj
 
-problemasSentenciaIf.i: problemasSentenciaIf.c.i
+ejerciciosSwitch.i: ejerciciosSwitch.c.i
 
-.PHONY : problemasSentenciaIf.i
+.PHONY : ejerciciosSwitch.i
 
 # target to preprocess a source file
-problemasSentenciaIf.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasSentenciaIf.c.i
-.PHONY : problemasSentenciaIf.c.i
+ejerciciosSwitch.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/ejerciciosSwitch.c.i
+.PHONY : ejerciciosSwitch.c.i
 
-problemasSentenciaIf.s: problemasSentenciaIf.c.s
+ejerciciosSwitch.s: ejerciciosSwitch.c.s
 
-.PHONY : problemasSentenciaIf.s
+.PHONY : ejerciciosSwitch.s
 
 # target to generate assembly for a file
-problemasSentenciaIf.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/problemasSentenciaIf.c.s
-.PHONY : problemasSentenciaIf.c.s
+ejerciciosSwitch.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/ejerciciosSwitch.c.s
+.PHONY : ejerciciosSwitch.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... problemasSentenciaIf.obj
-	@echo ... problemasSentenciaIf.i
-	@echo ... problemasSentenciaIf.s
+	@echo ... ejerciciosSwitch.obj
+	@echo ... ejerciciosSwitch.i
+	@echo ... ejerciciosSwitch.s
 .PHONY : help
 
 
