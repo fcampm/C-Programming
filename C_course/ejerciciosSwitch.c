@@ -23,7 +23,9 @@ int main(){
 
     // Llamamos la función problemaCalificaciones() para correr la solución del problema de las calificaciones
     //problemaCalificaciones();
-    problemaVehiculoTelepeaje();
+    //problemaVehiculoTelepeaje();
+    //problemaEnterosARomanos();
+    problemaNumeroMes();
     return 0;
 }
 
@@ -92,3 +94,166 @@ void problemaVehiculoTelepeaje(){
     }
 }
 
+void problemaEnterosARomanos(){
+
+    // Declaración de variables a usar
+    int numero, unidades, decenas, centenas, millar;
+
+    printf("Digite un numero: ");
+    scanf("%i", &numero);
+
+    unidades = numero % 10;
+    numero /= 10;
+    decenas = numero % 10;
+    numero /= 10;
+    centenas = numero % 10;
+    numero /= 10;
+    millar = numero % 10;
+    numero /= 10;
+
+    switch(millar){
+        case 1:
+            printf("M");
+            break;
+        case 2:
+            printf("MM");
+            break;
+        case 3:
+            printf("MMM");
+    }
+    switch(centenas){
+        case 1:
+            printf("C");
+            break;
+        case 2:
+            printf("CC");
+            break;
+        case 3:
+            printf("CCC");
+            break;
+        case 4:
+            printf("CD");
+            break;
+        case 5:
+            printf("D");
+            break;
+        case 6:
+            printf("DC");
+            break;
+        case 7:
+            printf("DCC");
+            break;
+        case 8:
+            printf("DCCC");
+            break;
+        case 9:
+            printf("CM");
+            break;
+    }
+    switch(decenas){
+        case 1:
+            printf("X");
+            break;
+        case 2:
+            printf("XX");
+            break;
+        case 3:
+            printf("XXX");
+            break;
+        case 4:
+            printf("XL");
+            break;
+        case 5:
+            printf("L");
+            break;
+        case 6:
+            printf("LX");
+            break;
+        case 7:
+            printf("LXX");
+            break;
+        case 8:
+            printf("LXXX");
+            break;
+        case 9:
+            printf("XC");
+            break;
+    }
+    switch(unidades){
+        case 1:
+            printf("I");
+            break;
+        case 2:
+            printf("II");
+            break;
+        case 3:
+            printf("III");
+            break;
+        case 4:
+            printf("IV");
+            break;
+        case 5:
+            printf("V");
+            break;
+        case 6:
+            printf("VI");
+            break;
+        case 7:
+            printf("VII");
+            break;
+        case 8:
+            printf("VIII");
+            break;
+        case 9:
+            printf("IX");
+            break;
+    }
+}
+
+void problemaNumeroMes(){
+
+    // Variables de instancia.
+    int numeroMes;
+
+    printf("Digite un numero para mostrar su mes: ");
+    scanf("%i", &numeroMes);
+
+    switch(numeroMes){
+        case 1:
+            printf("Enero");
+            break;
+        case 2:
+            printf("Febrero");
+            break;
+        case 3:
+            printf("Marzo");
+            break;
+        case 4:
+            printf("Abril");
+            break;
+        case 5:
+            printf("Mayo");
+            break;
+        case 6:
+            printf("Junio");
+            break;
+        case 7:
+            printf("Julio");
+            break;
+        case 8:
+            printf("Agosto");
+            break;
+        case 9:
+            printf("Septiembre");
+            break;
+        case 10:
+            printf("Octubre");
+            break;
+        case 11:
+            printf("Noviembre");
+            break;
+        case 12:
+            printf("Diciembre");
+            break;
+    }
+}

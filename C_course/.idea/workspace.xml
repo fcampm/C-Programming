@@ -36,7 +36,7 @@
       <file leaf-file-name="switchSelector.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/switchSelector.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
@@ -46,10 +46,13 @@
       <file leaf-file-name="ejerciciosSwitch.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ejerciciosSwitch.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="79" column="47" lean-forward="false" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+            <state relative-caret-position="168">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding>
-                <element signature="e#646#1389#0" expanded="false" />
+                <element signature="e#706#1449#0" expanded="false" />
+                <element signature="e#1451#2346#0" expanded="false" />
+                <element signature="e#2348#4644#0" expanded="false" />
+                <element signature="e#4646#5626#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -58,7 +61,7 @@
       <file leaf-file-name="problemasSentenciaIf.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problemasSentenciaIf.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1124">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="e#142#160#0" expanded="true" />
@@ -224,14 +227,17 @@
       <workItem from="1522095698688" duration="2082000" />
       <workItem from="1523456082785" duration="142000" />
       <workItem from="1523887935355" duration="4565000" />
+      <workItem from="1523936555377" duration="93000" />
+      <workItem from="1523982253735" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62312000" />
+    <option name="totallyTimeSpent" value="65539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -239,7 +245,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -574,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/switchSelector.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
@@ -582,7 +588,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problemasSentenciaIf.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1124">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#142#160#0" expanded="true" />
@@ -599,10 +605,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejerciciosSwitch.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="79" column="47" lean-forward="false" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        <state relative-caret-position="168">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
-            <element signature="e#646#1389#0" expanded="false" />
+            <element signature="e#706#1449#0" expanded="false" />
+            <element signature="e#1451#2346#0" expanded="false" />
+            <element signature="e#2348#4644#0" expanded="false" />
+            <element signature="e#4646#5626#0" expanded="false" />
           </folding>
         </state>
       </provider>
