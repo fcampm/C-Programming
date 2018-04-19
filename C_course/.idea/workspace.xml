@@ -46,13 +46,15 @@
       <file leaf-file-name="ejerciciosSwitch.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ejerciciosSwitch.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="443">
+              <caret line="262" column="31" lean-forward="false" selection-start-line="262" selection-start-column="31" selection-end-line="262" selection-end-column="31" />
               <folding>
-                <element signature="e#706#1449#0" expanded="false" />
-                <element signature="e#1451#2346#0" expanded="false" />
-                <element signature="e#2348#4644#0" expanded="false" />
-                <element signature="e#4646#5626#0" expanded="false" />
+                <element signature="e#301#319#0" expanded="true" />
+                <element signature="e#761#1504#0" expanded="false" />
+                <element signature="e#1506#2401#0" expanded="false" />
+                <element signature="e#2403#4699#0" expanded="false" />
+                <element signature="e#4701#5681#0" expanded="false" />
+                <element signature="e#5683#6967#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -126,10 +128,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="40" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -228,12 +229,13 @@
       <workItem from="1523456082785" duration="142000" />
       <workItem from="1523887935355" duration="4565000" />
       <workItem from="1523936555377" duration="93000" />
-      <workItem from="1523982253735" duration="3134000" />
+      <workItem from="1523982253735" duration="3241000" />
+      <workItem from="1524138071118" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65539000" />
+    <option name="totallyTimeSpent" value="67076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
@@ -605,13 +607,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejerciciosSwitch.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="443">
+          <caret line="262" column="31" lean-forward="false" selection-start-line="262" selection-start-column="31" selection-end-line="262" selection-end-column="31" />
           <folding>
-            <element signature="e#706#1449#0" expanded="false" />
-            <element signature="e#1451#2346#0" expanded="false" />
-            <element signature="e#2348#4644#0" expanded="false" />
-            <element signature="e#4646#5626#0" expanded="false" />
+            <element signature="e#301#319#0" expanded="true" />
+            <element signature="e#761#1504#0" expanded="false" />
+            <element signature="e#1506#2401#0" expanded="false" />
+            <element signature="e#2403#4699#0" expanded="false" />
+            <element signature="e#4701#5681#0" expanded="false" />
+            <element signature="e#5683#6967#0" expanded="false" />
           </folding>
         </state>
       </provider>

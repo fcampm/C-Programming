@@ -9,4 +9,6 @@
 D:/Documentos/_otros/Cursos/C-Programming/C_course/ejerciciosSwitch.c
 stdio.h
 -
+stdbool.h
+-
 

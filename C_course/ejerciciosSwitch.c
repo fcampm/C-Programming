@@ -13,6 +13,7 @@
 
 // Librerías a usar.
 #include <stdio.h>
+#include <stdbool.h>
 
 // Macros a usar en el problemaVehiculoTelepeaje.
 #define TURISMO 500;
@@ -25,7 +26,8 @@ int main(){
     //problemaCalificaciones();
     //problemaVehiculoTelepeaje();
     //problemaEnterosARomanos();
-    problemaNumeroMes();
+    //problemaNumeroMes();
+    problemaCajeroAutomatico();
     return 0;
 }
 
@@ -255,5 +257,45 @@ void problemaNumeroMes(){
         case 12:
             printf("Diciembre");
             break;
+    }
+}
+
+void problemaCajeroAutomatico(){
+
+    // Variables de instancia
+    int opcion;
+    float saldo = 1000;
+    float dineroIngresarRetirar;
+
+    while(true) {
+        printf("\tBeinvenido a su cajero virtual");
+        printf("\nn1. Ingreso en cuenta");
+        printf("\nn2. Retirar dinero de la cuenta");
+        printf("\nn3. Salir");
+        printf("\nSeleccione su opcion: ");
+        scanf("%i", &opcion);
+
+        switch (opcion) {
+            case 1:
+                printf("Cuanto dinero desea ingresar a la cuenta?: ");
+                scanf("%f", &dineroIngresarRetirar);
+                saldo += dineroIngresarRetirar;
+                printf("Saldo total: %0.2f", saldo);
+                break;
+            case 2:
+                printf("Cuanto dinero desea retirar de la cuenta?: ");
+                scanf("%f", &dineroIngresarRetirar);
+                if (dineroIngresarRetirar > saldo) {
+                    printf("La cantidad es mayor al saldo");
+                } else {
+                    saldo -= dineroIngresarRetirar;
+                    printf("Saldo total: %0.2f", saldo);
+                }
+                break;
+            case 3:
+                return;
+            default:
+                printf("Opcion no valida. Vuelva a intentarlo");
+        }
     }
 }
