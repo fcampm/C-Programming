@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-ejerciciosSwitch.obj: ejerciciosSwitch.c.obj
+operadorSignoInterrogacion.obj: operadorSignoInterrogacion.c.obj
 
-.PHONY : ejerciciosSwitch.obj
+.PHONY : operadorSignoInterrogacion.obj
 
 # target to build an object file
-ejerciciosSwitch.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/ejerciciosSwitch.c.obj
-.PHONY : ejerciciosSwitch.c.obj
+operadorSignoInterrogacion.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj
+.PHONY : operadorSignoInterrogacion.c.obj
 
-ejerciciosSwitch.i: ejerciciosSwitch.c.i
+operadorSignoInterrogacion.i: operadorSignoInterrogacion.c.i
 
-.PHONY : ejerciciosSwitch.i
+.PHONY : operadorSignoInterrogacion.i
 
 # target to preprocess a source file
-ejerciciosSwitch.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/ejerciciosSwitch.c.i
-.PHONY : ejerciciosSwitch.c.i
+operadorSignoInterrogacion.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.i
+.PHONY : operadorSignoInterrogacion.c.i
 
-ejerciciosSwitch.s: ejerciciosSwitch.c.s
+operadorSignoInterrogacion.s: operadorSignoInterrogacion.c.s
 
-.PHONY : ejerciciosSwitch.s
+.PHONY : operadorSignoInterrogacion.s
 
 # target to generate assembly for a file
-ejerciciosSwitch.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/ejerciciosSwitch.c.s
-.PHONY : ejerciciosSwitch.c.s
+operadorSignoInterrogacion.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.s
+.PHONY : operadorSignoInterrogacion.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ejerciciosSwitch.obj
-	@echo ... ejerciciosSwitch.i
-	@echo ... ejerciciosSwitch.s
+	@echo ... operadorSignoInterrogacion.obj
+	@echo ... operadorSignoInterrogacion.i
+	@echo ... operadorSignoInterrogacion.s
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_course.dir/ejerciciosSwitch.c.obj"
+  "CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj"
   "C_course.pdb"
   "C_course.exe"
   "C_course.exe.manifest"
