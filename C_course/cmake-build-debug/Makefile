@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-operadorSignoInterrogacion.obj: operadorSignoInterrogacion.c.obj
+whileLoop.obj: whileLoop.c.obj
 
-.PHONY : operadorSignoInterrogacion.obj
+.PHONY : whileLoop.obj
 
 # target to build an object file
-operadorSignoInterrogacion.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj
-.PHONY : operadorSignoInterrogacion.c.obj
+whileLoop.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileLoop.c.obj
+.PHONY : whileLoop.c.obj
 
-operadorSignoInterrogacion.i: operadorSignoInterrogacion.c.i
+whileLoop.i: whileLoop.c.i
 
-.PHONY : operadorSignoInterrogacion.i
+.PHONY : whileLoop.i
 
 # target to preprocess a source file
-operadorSignoInterrogacion.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.i
-.PHONY : operadorSignoInterrogacion.c.i
+whileLoop.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileLoop.c.i
+.PHONY : whileLoop.c.i
 
-operadorSignoInterrogacion.s: operadorSignoInterrogacion.c.s
+whileLoop.s: whileLoop.c.s
 
-.PHONY : operadorSignoInterrogacion.s
+.PHONY : whileLoop.s
 
 # target to generate assembly for a file
-operadorSignoInterrogacion.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.s
-.PHONY : operadorSignoInterrogacion.c.s
+whileLoop.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileLoop.c.s
+.PHONY : whileLoop.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... operadorSignoInterrogacion.obj
-	@echo ... operadorSignoInterrogacion.i
-	@echo ... operadorSignoInterrogacion.s
+	@echo ... whileLoop.obj
+	@echo ... whileLoop.i
+	@echo ... whileLoop.s
 .PHONY : help
 
 

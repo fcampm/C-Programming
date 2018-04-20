@@ -56,38 +56,38 @@ include CMakeFiles/C_course.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_course.dir/flags.make
 
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj: CMakeFiles/C_course.dir/flags.make
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj: ../operadorSignoInterrogacion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\_otros\Cursos\C-Programming\C_course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_course.dir\operadorSignoInterrogacion.c.obj   -c D:\Documentos\_otros\Cursos\C-Programming\C_course\operadorSignoInterrogacion.c
+CMakeFiles/C_course.dir/whileLoop.c.obj: CMakeFiles/C_course.dir/flags.make
+CMakeFiles/C_course.dir/whileLoop.c.obj: ../whileLoop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\_otros\Cursos\C-Programming\C_course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_course.dir/whileLoop.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_course.dir\whileLoop.c.obj   -c D:\Documentos\_otros\Cursos\C-Programming\C_course\whileLoop.c
 
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Documentos\_otros\Cursos\C-Programming\C_course\operadorSignoInterrogacion.c > CMakeFiles\C_course.dir\operadorSignoInterrogacion.c.i
+CMakeFiles/C_course.dir/whileLoop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_course.dir/whileLoop.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Documentos\_otros\Cursos\C-Programming\C_course\whileLoop.c > CMakeFiles\C_course.dir\whileLoop.c.i
 
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Documentos\_otros\Cursos\C-Programming\C_course\operadorSignoInterrogacion.c -o CMakeFiles\C_course.dir\operadorSignoInterrogacion.c.s
+CMakeFiles/C_course.dir/whileLoop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_course.dir/whileLoop.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Documentos\_otros\Cursos\C-Programming\C_course\whileLoop.c -o CMakeFiles\C_course.dir\whileLoop.c.s
 
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.requires:
+CMakeFiles/C_course.dir/whileLoop.c.obj.requires:
 
-.PHONY : CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.requires
+.PHONY : CMakeFiles/C_course.dir/whileLoop.c.obj.requires
 
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.provides: CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.requires
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.provides.build
-.PHONY : CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.provides
+CMakeFiles/C_course.dir/whileLoop.c.obj.provides: CMakeFiles/C_course.dir/whileLoop.c.obj.requires
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileLoop.c.obj.provides.build
+.PHONY : CMakeFiles/C_course.dir/whileLoop.c.obj.provides
 
-CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.provides.build: CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj
+CMakeFiles/C_course.dir/whileLoop.c.obj.provides.build: CMakeFiles/C_course.dir/whileLoop.c.obj
 
 
 # Object files for target C_course
 C_course_OBJECTS = \
-"CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj"
+"CMakeFiles/C_course.dir/whileLoop.c.obj"
 
 # External object files for target C_course
 C_course_EXTERNAL_OBJECTS =
 
-C_course.exe: CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj
+C_course.exe: CMakeFiles/C_course.dir/whileLoop.c.obj
 C_course.exe: CMakeFiles/C_course.dir/build.make
 C_course.exe: CMakeFiles/C_course.dir/linklibs.rsp
 C_course.exe: CMakeFiles/C_course.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/C_course.dir/build: C_course.exe
 
 .PHONY : CMakeFiles/C_course.dir/build
 
-CMakeFiles/C_course.dir/requires: CMakeFiles/C_course.dir/operadorSignoInterrogacion.c.obj.requires
+CMakeFiles/C_course.dir/requires: CMakeFiles/C_course.dir/whileLoop.c.obj.requires
 
 .PHONY : CMakeFiles/C_course.dir/requires
 
