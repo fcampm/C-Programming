@@ -18,7 +18,7 @@ int main(){
     printf("First 10 numbers beginning with 1: \n");
     while(i <= 10){
         printf("%i \n", i); // Output expected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
-        i++; // We need to add 1 because if qe don't this will be an endless loop or cycle.
+        i++; // We need to add 1 because if we don't this will be an endless loop or cycle.
     }
 
     // While loop to print the first 10 numbers beginning with 10.
