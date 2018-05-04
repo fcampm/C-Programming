@@ -6,13 +6,18 @@
 
 // Libraries to use
 #include <stdio.h>
+#include <math.h>
 
 int main(){
 
     //firstProblem();
     //firstProblemSecondSolution();
     //secondProblem();
-    secondProblemSecondSolution();
+    //secondProblemSecondSolution();
+    //thirdProblem();
+    //fourthProblem();
+    //fifthProblem();
+    sixthProblem();
 
     return 0;
 }
@@ -100,6 +105,70 @@ void secondProblemSecondSolution(){
         printf("The result is: %i", result);
 
     }
+}
+
+/* Multiples of 3 beginning from 1 to n. */
+void thirdProblem(){
+    int n, i = 1;
+
+    printf("Digit the total of numbers to corroborate: ");
+    scanf("%i", &n);
+
+    while(i <= n){
+        if(i % 3 == 0){
+            printf("The number %i, it's a multiple of 3\n", i);
+        }
+        i++;
+    }
+}
+
+/* Multiples of 5 beginning from 1 to n. */
+void fourthProblem(){
+    int n, i = 1;
+
+    printf("Digit the total of numbers to corroborate: ");
+    scanf("%i", &n);
+
+    while(i <= n){
+        if(i % 5 == 0){
+            printf("The number %i, it's a multiple of 5\n", i);
+        }
+        i++;
+    }
+
+}
+
+/* Exercise: add 1-2 + 3-4 + 5-6 + .... + n. */
+void fifthProblem(){
+
+    int n, i = 1,res = 0;
+
+    printf("Digit the total of numbers to calculate: ");
+    scanf("%i", &n);
+
+    while (i <= n){
+        res += pow(-1,i+1) * i;
+        i++;
+    }
+
+    printf("The result is: %i", res);
+}
+
+/* Add the par numbers beginning from n to m. */
+void sixthProblem(){
+
+    int n, m, res = 0;
+
+    printf("Digit the range of numbers to sum [n, m]: ");
+    scanf("%i %i", &n, &m);
+
+    while (n <= m){
+        if(n % 2 == 0){
+            res += n;
+        }
+        n++;
+    }
+    printf("The result of the sum it's: %i", res);
 }
 
 // This is the definition of the factorial number using recursion. This is the solution of the conditional of the secondProblem.
