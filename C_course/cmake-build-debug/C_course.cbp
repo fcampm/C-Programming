@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Documentos/_otros/Cursos/C-Programming/C_course/whileCycleProblems.c">
+		<Unit filename="D:/Documentos/_otros/Cursos/C-Programming/C_course/forLoopProblems.c">
 			<Option target="C_course"/>
 		</Unit>
 		<Unit filename="D:/Documentos/_otros/Cursos/C-Programming/C_course/CMakeLists.txt">

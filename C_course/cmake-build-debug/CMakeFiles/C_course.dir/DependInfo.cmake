@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Documentos/_otros/Cursos/C-Programming/C_course/whileCycleProblems.c" "D:/Documentos/_otros/Cursos/C-Programming/C_course/cmake-build-debug/CMakeFiles/C_course.dir/whileCycleProblems.c.obj"
+  "D:/Documentos/_otros/Cursos/C-Programming/C_course/forLoopProblems.c" "D:/Documentos/_otros/Cursos/C-Programming/C_course/cmake-build-debug/CMakeFiles/C_course.dir/forLoopProblems.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -122,32 +122,32 @@ C_course/fast:
 	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/build
 .PHONY : C_course/fast
 
-whileCycleProblems.obj: whileCycleProblems.c.obj
+forLoopProblems.obj: forLoopProblems.c.obj
 
-.PHONY : whileCycleProblems.obj
+.PHONY : forLoopProblems.obj
 
 # target to build an object file
-whileCycleProblems.c.obj:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileCycleProblems.c.obj
-.PHONY : whileCycleProblems.c.obj
+forLoopProblems.c.obj:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/forLoopProblems.c.obj
+.PHONY : forLoopProblems.c.obj
 
-whileCycleProblems.i: whileCycleProblems.c.i
+forLoopProblems.i: forLoopProblems.c.i
 
-.PHONY : whileCycleProblems.i
+.PHONY : forLoopProblems.i
 
 # target to preprocess a source file
-whileCycleProblems.c.i:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileCycleProblems.c.i
-.PHONY : whileCycleProblems.c.i
+forLoopProblems.c.i:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/forLoopProblems.c.i
+.PHONY : forLoopProblems.c.i
 
-whileCycleProblems.s: whileCycleProblems.c.s
+forLoopProblems.s: forLoopProblems.c.s
 
-.PHONY : whileCycleProblems.s
+.PHONY : forLoopProblems.s
 
 # target to generate assembly for a file
-whileCycleProblems.c.s:
-	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/whileCycleProblems.c.s
-.PHONY : whileCycleProblems.c.s
+forLoopProblems.c.s:
+	$(MAKE) -f CMakeFiles\C_course.dir\build.make CMakeFiles/C_course.dir/forLoopProblems.c.s
+.PHONY : forLoopProblems.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... C_course
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... whileCycleProblems.obj
-	@echo ... whileCycleProblems.i
-	@echo ... whileCycleProblems.s
+	@echo ... forLoopProblems.obj
+	@echo ... forLoopProblems.i
+	@echo ... forLoopProblems.s
 .PHONY : help
 
 

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/Documentos/_otros/Cursos/C-Programming/C_course/whileCycleProblems.c
+D:/Documentos/_otros/Cursos/C-Programming/C_course/forLoopProblems.c
 stdio.h
 -
-math.h
+string.h
 -
 
